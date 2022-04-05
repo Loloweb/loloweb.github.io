@@ -1,2 +1,2 @@
-# website
-Personal website.
+# Wow!
+It's a website.
