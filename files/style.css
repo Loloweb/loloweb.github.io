@@ -69,7 +69,7 @@ body {
 /*} */
 
 a, a:active, a:visited {
-    color: #b16286;
+    color: #db83aa;
 }
 
 a.disabled {
@@ -99,9 +99,9 @@ blockquote *:before {
 }
 
 footer {
-    align: center;
+    text-align: center;
 }
-/*
+
 @media (prefers-color-scheme: light) {
     body {
         background: #fbf1c7;
@@ -124,7 +124,7 @@ footer {
         margin: .5em 10px;
         padding: .5em 10px
     }
-} */
+}
 
 hr {
     border-top: 1px solid #ebdbb2;
