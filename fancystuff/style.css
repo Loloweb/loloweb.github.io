@@ -1,0 +1,157 @@
+
+
+#cat > a {
+    background: none !important
+}
+
+
+.titlething, code.language-ASCII {
+    background: #bd93f9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #bd93f9, #ff79c6); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #bd93f9, #ff79c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* .toki {
+    font-family: linja-nanpa, monospace;
+}
+
+@font-face {
+    font-family: linja-nanpa;
+    src: url("linja-nanpa-2.3.otf") format("opentype");
+} */
+
+p {
+    padding-bottom: 1em;
+}
+main {
+    font-family: monospace;
+    max-width: 38rem;
+
+    padding: 1rem;
+    margin: auto;
+    font-size: 16px;
+    background: rgb(25, 25, 25);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-device-width: 736px) {
+    main {
+        padding: 0;
+    }
+    code.language-ASCII {
+        font-size: 3.8vw;
+    }
+}
+
+::selection {
+    background: #d3869b;
+    color: #000;
+}
+
+body {
+    color: #ebdbb2;
+	background: #282828 url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAEpElEQVR4nO2dW3LiQBAEE8kmOPae2w7j/ZjFa0CAHi1N16jqABMZlf2pKB1Op9MfgnI8Hun7Puq5q5zPZz4+Pvj+/g55z6yFs4t6zIWWqLBeOEMOwIWWqLD+5lx8AC60RIX1lnPRAbjQEhXWIc7ZB+BCS1RYH3HOOgAXWqLC+oxz8gG40BIV1leckw7AhZaosI7hHH0ALrREhXUs56gDcKElKqxTOF8egAstUWGdyvn0AFxoiQrrHM6HB+BCS1RY53IOHoALLVFhXcJ5dwAutESFdSnn1QG40BIV1gjOnwNwoSUqrFGcHbjQS1RYIzk7F1qiwhrN2e29UNBhXYPzLeSlm3x9ffH5+Zm+UNi3/L7v4z4KvcTydeTDwk/CbmP5WvIh8AAsX08+BB2A5WvKh4ADOJ/Plh+cLTkXHYBKoaDDujXn7ANQKRR0WGtwzjoAlUJBh7UW5+QDUCkUdFhrck46AJVCQYe1NufoA6gNOiUqrBk4Rx1ABtCxUWHNwvnyALKAjokKaybOpweQCfRVVFizcT48gGygz6LCmpFz8AAygj6KCmtWzrsDyAo6FBXWzJxXB5AZ9DYqrNk5fw4gO+jvqLAqcHagAXqJCqsKZ6cCCjqlqnACdCqgKqWqcEL5kqtTAFUpVYUTinxPxQZGhRP+y4eAbwItX4cTruWDp2IXR4UT7uWDp2IXRYUThuWDp2JnR4UTHssHT8XOigonPJcPnoqdHBVOeC0fPBU7KSqcME4+eCp2dFQ4Ybx88FTsqKhwwjT54KnYl1HhhOnywVOxT6PCCfPkg6diH0aFE+bLB0/FDkaFE5bJB0/F3kWFE5bLB0/FXkWFE2Lkg6dif6LCCXHywVOxgA4nxMo/HA6eilXhhHj5x+MxfikUdEpV4YSV5Hdd/AGolKrCCevJh+CpWJVSVThhXfkQeAAqpapwwvryIegAVEpV4YRt5EPQVKxCqSqcsJ182MlUrAonbCsfdjAVq8IJ28uHxqdiVTihjnxoeCpWhRPqyYdGp2JVOKGufGhwKlaFE+rLh8amYlU4IYd8aGgqVoUT8siHRqZiVTghl3xoYCpWhRPyyQfxqVgVTsgpH4SnYlU4Ia98EJ2KVeGE3PJBcCpWhRPyywexqVgVTtCQD/Cm8t9fy1/l+106y4+NknyJqVjLX09++qlYy19XPiSeirX89eVD0qlYy99GPiScirX87eRDsqlYy99WPiSairX87eVDkqlYy68jHxJMxVp+PflQeSrW8uvKh4pTsZZfXz5Umoq1/BzyocJUrOXnkQ8bT8Vafi75sOFUrOXnkw8bTcVafk75sMFUrOXnlQ8rT8Vafm75sOJUrOXnl7/aVKzla8h/f3/f71IoWH7f97yFvPgvlq8hf5WpWMvXkw87WwoFyw+firV8Xfmwk6VQsPzwqVjL15cPjS+FguWHT8VafjvyodGlULD88KlYy29PPjS2FAr1C52SDKzNLIVCjkLHJgtrE0uhkKfQMcnEKr8UCrkKfZVsrNJLoZCv0GfJyCq7FAo5C32UrKySS6GQt9ChZGaVWwqF3IXeJjur1FIo5C/0dxRYO8vfr3yAv3rECG2I4F0DAAAAAElFTkSuQmCC');
+}
+
+/*pre {*/
+/*    background-color: #3c3836;*/
+/*    padding: 1em;*/
+/*    border: 0*/
+/*} */
+
+a, a:active, a:visited {
+    color: #db83aa;
+}
+
+a.disabled {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    padding-top: 1rem;
+    font-size:16px;
+}
+h1:before {
+    content: '# ';
+}
+h2:before {
+    content: '## ';
+}
+h3:before {
+    content: '### ';
+}
+
+blockquote *:before {
+    /*border-left: 1px solid #bdae93;*/
+    /*margin: .5em 10px;*/
+    /*padding: .5em 10px*/
+    content: '> ';
+
+}
+
+footer {
+    text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background: #fbf1c7;
+        color: #3c3836
+    }
+    pre {
+        background-color: #ebdbb2;
+        padding: 1em;
+        border: 0
+    }
+    a, a:active, a:visited {
+        color: #b16286;
+        background-color: #f9f5d7
+    }
+    h1, h2, h3, h4, h5 {
+        margin-bottom: .1rem
+    }
+    blockquote {
+        border-left: 1px solid #655c54;
+        margin: .5em 10px;
+        padding: .5em 10px
+    }
+}
+
+hr {
+    border-top: 1px solid #ebdbb2;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    font-weight: normal;
+    padding: 3px;
+}
+ul, ol {
+    padding-left: 36px;
+    padding-bottom: 1em;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0 !important;
+}
+
+
+ul li {
+  list-style: "->  ";
+  list-style-position: outside;
+    font:ForkAwesome, monospace;
+    font-size: inherit;
+}
+
+code.language-sans-serif{
+    font-family: sans-serif;
+}
