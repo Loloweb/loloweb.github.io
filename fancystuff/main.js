@@ -18,6 +18,20 @@ $(function() { // Spin.
     });
 });
 
+$(function() {
+    let url = new URL(window.location.href);
+    let params = new URLSearchParams(url.search);
+    let ascii = document.getElementById('ascii');
+    if (params.has('uwu')) {
+        if (params.has('uwu')) {
+            // Replace HTML with SVG
+            ascii.innerHTML = `<div style="display: flex; ">
+                    <img src="/img/vtuberlolo.png" alt="uwu" style="width: 50%; height: auto;">
+                </div>`;
+        }
+    }
+})
+
 function cache() {
     // Get the checkbox
     var checkBox = document.getElementById("cache");
